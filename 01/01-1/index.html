@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>饼图 v2.0（HTML+CSS vs SVG vs Canvas）</h1>
+    <table>
+        <tr>
+            <td>
+                <div class="piegraph"></div>
+            </td>
+            <td>
+                <div id="svg"></div>
+            </td>
+            <td>
+                <div id="canvas"></div>
+            </td>
+        </tr>
+        <tr>
+            <th>HTML+CSS</th>
+            <th>SVG</th>
+            <th>Canvas</th>
+        </tr>
+    </table>
+    <svg xmlns="http://www.w3.org/2000/svg" width="250px" height="250px" viewBox="0 0 250 250">
+        <path d="M 125 125L 125 0A 125 125 0 0 1 187.5 16.74682452694516Z" fill="#37c" />
+        <path d="M 125 125L 187.5 16.74682452694516A 125 125 0 0 1 238.28847337958126 72.17271728241258Z" fill="#3c7" />
+        <path d="M 125 125L 238.28847337958126 72.17271728241258A 125 125 0 0 1 242.46157759823853 167.75251791570858Z"
+            fill="orange" />
+        <path d="M 125 125L 242.46157759823853 167.75251791570858A 125 125 0 0 1 82.24748208429142 242.46157759823853Z"
+            fill="#f73" />
+        <path d="M 125 125L 82.24748208429142 242.46157759823853A 125 125 0 0 1 124.99999999999997 0Z" fill="#ccc" />
+    </svg>
+    <script src="./main.js"></script>
+</body>
+
+</html>
